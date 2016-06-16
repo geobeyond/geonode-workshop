@@ -1,0 +1,8 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "An introduction to GeoNode",
+    "packageVersion": "0.0.1",
+    "useSass": true,
+    "deployToGithubPages": false
+  }
+}
