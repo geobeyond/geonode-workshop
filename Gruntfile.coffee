@@ -40,6 +40,13 @@ module.exports = (grunt) ->
         compass:
 
             theme:
+                options:
+                    basePath: ''
+                    relativeAssets: true
+                    sassDir: 'css/source'
+                    cssDir: 'css'
+                    imagesDir: 'css'
+                    fontsDir: 'css/fonts'
                 files:
                     'css/theme.css': 'css/source/theme.scss'
 

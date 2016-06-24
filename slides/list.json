@@ -1,1 +1,330 @@
-["index.md"]
+[
+    {
+        "filename": "index.md",
+        "attr": {
+            "data-background": "css/img/bg.png"
+        }
+    },
+    [
+        {
+            "filename": "who-we-are.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "geoavalanche.html",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        }
+    ],
+    {
+        "filename": "geopython-geonode.md",
+        "attr": {
+            "data-background": "css/img/bg.png"
+        }
+    },
+    [
+        {
+            "filename": "whatisgn.html",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "whatisgn.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        }
+    ],
+    [
+        {
+            "filename": "what-can-i-do-with-geonode.html",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "what-can-i-do-with-geonode.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        }
+    ],
+    [
+        {
+            "filename": "whats-the-workshop-contents.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "setup-of-the-environment.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "setup-of-the-environment-1.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "install-geonode.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "setup-geonode-systemwide.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "open-geonode-in-a-browser.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "open-geonode-in-a-browser-1.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "tricks-and-solution.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "success.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        }
+    ],
+    [
+        {
+            "filename": "users-basic-features.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "users-and-groups.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "users.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "superusers.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "groups.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "layers.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "layer-detail.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "maps.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "maps-1.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "maps-2.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "maps-3.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "maps-4.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "maps-5.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "metadata.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "metadata-1.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "searching.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        }
+    ],
+    [
+        {
+            "filename": "admins-basic-features.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "geonode-settings.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "admin-users-groups.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "admin-users-groups-1.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "admin-layers.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "admin-maps.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "admin-metadata.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "geonode-commands.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "troubleshooting.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        }
+    ],
+    [
+        {
+            "filename": "start-development.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "setup-virtualenv.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "setup-devel-geonode.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "start-geonode-devel.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "setup-geonode-devel-2dot4.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        }
+    ],
+    [
+        {
+            "filename": "howto-customize-geonode.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "customize-look-and-feel.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "customize-look-and-feel-1.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        }
+    ],
+    {
+        "filename": "useful-links.md",
+        "attr": {
+            "data-background": "css/img/bg.png"
+        }
+    },
+    {
+        "filename": "thanks.md",
+        "attr": {
+            "data-background": "css/img/bg.png"
+        }
+    }
+]

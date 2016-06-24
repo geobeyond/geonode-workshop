@@ -1,10 +1,6 @@
 
 # An introduction to GeoNode
 
-From the terminal, pop in:
+#### Francesco Bartoli
 
-  ```yo reveal:slide "Slide Title"```
-
-Available options:
-
- ```--markdown --attributes --notes```
+[![Geobeyond](css/img/logo/logo_300.png)](http://www.geobeyond.it)
