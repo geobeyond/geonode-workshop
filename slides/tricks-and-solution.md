@@ -1,17 +1,17 @@
 ## Don't panic!
 
-### Hints and tricks
+**Hints and tricks**
 
 Take a look at browser console what is the problem
 
-##### Expose the port
+*Expose the port*
 
 ```bash
 config.vm.network "forwarded_port", guest: 8080, host: 8080
 # forward to the host another port
 ```
 
-##### Pass the cookie with the correct hostname to GeoServer
+*Pass the cookie with the correct hostname to GeoServer*
 
 ```bash
 $ sudo vi /usr/share/geoserver/data/security/auth/geonodeAuthProvider/config.xml

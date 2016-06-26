@@ -1,8 +1,8 @@
 ## How to start with development
 
-#### Prerequisites
+**Prerequisites**
 
-Install [git](https://git-scm.com/) and development dependencies for Ubuntu 14.04:
+Install [git](https://git-scm.com/) and the development dependencies for Ubuntu 14.04:
 
 ```bash
 $ sudo add-apt-repository ppa:ubuntugis/ubuntugis-unstable
@@ -16,10 +16,9 @@ Install [pyenv](https://github.com/yyuu/pyenv) with the recommended way:
 
 ```bash
 $ curl -L https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/pyenv-installer | bash
-# install pyenv
 ```
 
-Add these lines below to the bashrc of the vagrant user:
+Add these lines below to the *bashrc* of the *vagrant* user:
 
 ```bash
 export PATH="/home/vagrant/.pyenv/bin:$PATH"

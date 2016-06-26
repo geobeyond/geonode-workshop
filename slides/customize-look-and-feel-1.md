@@ -1,6 +1,6 @@
 ## Customize look and feel
 
-### Change homepage
+**Change homepage**
 
 Override the index page by editing the HTML within the `template` folder:
 

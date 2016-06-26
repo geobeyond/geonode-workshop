@@ -1,6 +1,6 @@
 ## GeoNode settings
 
-Everything is configurable within the systemwide settings file `/etc/geonode/local_settings.py` and can override `/usr/local/lib/python2.7/dist-packages/geonode/settings.py`
+Everything is configurable within the systemwide settings file `/etc/geonode/local_settings.py` which can override `/usr/local/lib/python2.7/dist-packages/geonode/settings.py`
 
 ```python
 # -*- coding: utf-8 -*-

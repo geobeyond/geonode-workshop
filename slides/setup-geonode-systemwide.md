@@ -5,7 +5,6 @@ $ geonode createsuperuser
 # a commandline toolkit has been installed systemwide so let's create the superuser of the GeoNode instance
 # use username: 'geonode' and password: 'geonode'
 ```
----
 
 ```bash
 $ sudo geonode-updateip localhost:8888
@@ -16,9 +15,10 @@ $ sudo vi /etc/apache2/site-available/geonode.conf
 # change the port of virtual host to 8888 and restart
 ```
 
-#### You have installed GeoNode! Congratulations!!!
+**You have installed GeoNode! Congratulations!!!**
 
-Anyway you don't have GeoNode available from your local browser. So we have to set a new forwarding port in the vagrantfile:
+Anyway you don't have GeoNode available from your local browser.
+So we have to set a new forwarding port in the vagrantfile:
 
 ```bash
 config.vm.network "forwarded_port", guest: 8888, host: 8888

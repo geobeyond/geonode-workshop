@@ -20,7 +20,7 @@ Migrate with:
 (geonode)$ paver start -b 0.0.0.0:8000
 ```
 
-Development server is started within the VM at http://0.0.0.0:8000/. In order to access that on your host you have to add a new config line at your vagrantfile and reload:
+Development server is started within the VM at http://0.0.0.0:8000/. In order to access that on your host you have to add a new config line at your *vagrantfile* and reload:
 
 ```bash
 config.vm.network "forwarded_port", guest: 8000, host: 8000

@@ -1,17 +1,15 @@
 ## Troubleshooting and Logs
 
-Run GeoNode application in DEBUG mode:
+Run GeoNode application in **DEBUG** mode:
 
 ```bash
 $ sudo vi /etc/geonode/local_settings.py
 # edit systemwide settings
 ```
----
 ```python
 DEBUG = TEMPLATE_DEBUG = True
 # debug enabled. Need to restart Apache
 ```
-
 
 GeoNode log is within apache log
 
@@ -21,7 +19,7 @@ $ sudo tail -f /var/log/apache2/error.log
 # apache logs
 ```
 
-GeoServer log is usually within the data directory `GEOSERVER_DATA_DIR/logs/geoserver.log`
+GeoServer log is usually in `GEOSERVER_DATA_DIR/logs/geoserver.log`
 
 ```bash
 $ sudo tail -f /usr/share/geoserver/data/logs/geoserver.log

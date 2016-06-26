@@ -13,7 +13,7 @@ $ mkdir geonode && cd geonode && vagrant init ubuntu/trusty32
 # Create a working directory and initialize the vagrantfile within
 ```
 
-- Edit the vagrantfile for more memory (see issue [#2076](https://github.com/GeoNode/geonode/issues/2076)):
+- Edit the *vagrantfile* for more memory (see issue [#2076](https://github.com/GeoNode/geonode/issues/2076)):
 
 ```bash
 config.vm.provider "virtualbox" do |vb|

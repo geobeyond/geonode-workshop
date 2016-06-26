@@ -20,5 +20,4 @@ ACCOUNT_EMAIL_CONFIRMATION_REQUIRED = False
 - Let's get started to create a new user
     - New accounts don't need to be approved
     - You won't be receiving an email to confirm the registration
-
 - A new user can create his/her own groups and will be the manager
