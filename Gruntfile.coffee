@@ -90,15 +90,29 @@ module.exports = (grunt) ->
                         'js/**'
                         'css/*.css'
                         'resources/**'
+                        'css/img/**'
+                        'css/fonts/**'
                     ]
-                    dest: 'dist/'
+                    dest: 'dist/geopython2016'
                 },{
                     expand: true
                     src: ['index.html']
-                    dest: 'dist/'
+                    dest: 'dist/geopython2016'
                     filter: 'isFile'
                 }]
 
+
+        buildcontrol:
+
+            options:
+                dir: 'dist'
+                commit: true
+                push: true
+                message: 'Built from %sourceCommit% on branch %sourceBranch%'
+            pages:
+                options:
+                    remote: '<%= pkg.repository.url %>'
+                    branch: 'gh-pages'
 
 
 
@@ -143,6 +157,12 @@ module.exports = (grunt) ->
             'copy'
         ]
 
+
+    grunt.registerTask 'deploy',
+        'Deploy to Github Pages', [
+            'dist'
+            'buildcontrol'
+        ]
 
 
     # Define default task.
