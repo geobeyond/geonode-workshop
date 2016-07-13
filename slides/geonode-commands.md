@@ -27,3 +27,16 @@ $ geonode updatelayers --user=geopython --skip-geonode-registered --store=geopyt
 $ geonode updatemaplayerip
 # update geonode with layer still not registered and from specific workspace and store of GeoServer
 ```
+
+**Update Map baselayers** of local maps in one command:
+
+```bash
+$ geonode shell
+```
+
+```python
+>>>from geonode.maps.models import MapLayer
+>>>MapLayer.objects.filter(name='osm').update(visibility=False)
+>>>MapLayer.objects.filter(name='mapnik').update(visibility=True)
+```
+
