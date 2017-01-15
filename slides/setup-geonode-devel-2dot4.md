@@ -18,7 +18,7 @@ Then run as before the following commands for dependencies:
 
 ```bash
 (geonode)$ pip install -e .
-(geonode)$ pip install pygdal==1.11.2.1
+(geonode)$ pip install pygdal==1.10.1
 ```
 ---
 ```bash

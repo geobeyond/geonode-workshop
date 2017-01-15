@@ -11,7 +11,7 @@ $ sudo geonode-updateip localhost:8888
 # update the address where the GeoNode instance is running
 $ sudo vi /etc/apache2/ports.conf
 # change listen port to 8888
-$ sudo vi /etc/apache2/site-available/geonode.conf
+$ sudo vi /etc/apache2/sites-available/geonode.conf
 # change the port of virtual host to 8888 and restart
 ```
 

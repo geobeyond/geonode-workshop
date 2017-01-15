@@ -37,6 +37,12 @@
             "attr": {
                 "data-background": "css/img/bg.png"
             }
+        },
+        {
+            "filename": "geonode-big-picture.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
         }
     ],
     [
@@ -289,6 +295,12 @@
             }
         },
         {
+            "filename": "geonode-devel-tricks.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
             "filename": "setup-geonode-devel-2dot4.md",
             "attr": {
                 "data-background": "css/img/bg.png"
@@ -310,6 +322,26 @@
         },
         {
             "filename": "customize-look-and-feel-1.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        }
+    ],
+    [
+        {
+            "filename": "customize-metadata.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "customize-metadata-1.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "customize-metadata-2.md",
             "attr": {
                 "data-background": "css/img/bg.png"
             }

@@ -11,7 +11,7 @@ $ vi site_index.html
 
 Change the main header with custom text
 
-```css
+```html
 <h1>{% trans "Welcome" %} at GeoNode Workshop of GeoPython 2016</h1>
 ```
 

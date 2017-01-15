@@ -19,7 +19,7 @@ $ pip install -e .
 ```
 
 ```bash
-$ pip install pygdal==1.11.2.1
+$ pip install pygdal==1.10.1
 ```
 
 Setup the custom build of [GeoServer](http://geoserver.org) for GeoNode:

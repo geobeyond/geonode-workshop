@@ -2,21 +2,19 @@
 
 #### Post setup for migrations
 
-Make migrations
+Make migrations and migrate the model if something has gone wrong with:
 
 ```bash
 (geonode)$ python manage.py makemigrations
-```
-
-Migrate with:
-
-```bash
 (geonode)$ python manage.py migrate
 ```
 
 #### Run GeoNode application
 
 ```bash
+# make sure you have stopped you systemwide installation by doing
+$ sudo service apache2 stop
+$ sudo service tomcat7 stop
 (geonode)$ paver start -b 0.0.0.0:8000
 ```
 
