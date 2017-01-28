@@ -1,6 +1,6 @@
-# Workshop
+# GeoNode Workshops
 
-## GeoPython 2016
+## FOSS4G-IT 2017
 
-[https://geobeyond.github.io/geonode-workshop/geopython2016/](https://geobeyond.github.io/geonode-workshop/geopython2016/)
+[https://geoonode.github.io/geonode-workshop/foss4git2017/](https://geoonode.github.io/geonode-workshop/foss4git2017/)
 
