@@ -1,6 +1,6 @@
 
-# An introduction to GeoNode
+# An introduction to
 
-#### Francesco Bartoli
+[![GeoNode](css/img/geonode_logo.png)](http://geonode.org)
 
-[![Geobeyond](css/img/logo/logo_300.png)](http://www.geobeyond.it)
+#### Community Developers

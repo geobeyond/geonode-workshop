@@ -7,7 +7,25 @@
     },
     [
         {
-            "filename": "who-we-are.md",
+            "filename": "vanilla-geonode.md",
+            "attr": {
+                "data-background": "css/img/homepage.png"
+            }
+        },
+        {
+            "filename": "copernicus-ems.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "ithaca.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "gfdrr-opendri.md",
             "attr": {
                 "data-background": "css/img/bg.png"
             }
@@ -19,12 +37,6 @@
             }
         }
     ],
-    {
-        "filename": "geopython-geonode.md",
-        "attr": {
-            "data-background": "css/img/bg.png"
-        }
-    },
     [
         {
             "filename": "whatisgn-1.md",

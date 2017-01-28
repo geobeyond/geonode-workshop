@@ -1,7 +1,11 @@
 # Thanks
 
-<francesco.bartoli@geobeyond.it>
+*Simone Dalmasso* - [@simod](https://github.com/simod)
 
-[@francbartoli](https://twitter.com/franbartoli)
+*Alessio Fabiani* - [@afabiani](https://github.com/afabiani)
+
+*Amedeo Fadini* - [@amefad](https://github.com/amefad)
+
+*Francesco Bartoli* - [@francbartoli](https://github.com/francbartoli)
 
 ![GeoNode](css/img/gn_logo.png)
