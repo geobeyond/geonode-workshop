@@ -16,7 +16,7 @@ Install all required dependencies:
 
 ```bash
 (geonode)$ pip install -e .
-(geonode)$ pip install pygdal==1.11.2.1
+(geonode)$ pip install pygdal==1.11.3.3
 ```
 
 Setup the custom build of [GeoServer](http://geoserver.org) for GeoNode:
@@ -25,9 +25,10 @@ Setup the custom build of [GeoServer](http://geoserver.org) for GeoNode:
 (geonode)$ paver setup
 ```
 
-Create the schema, initialize the database and then create the **superuser**:
+<!-- Create the schema, initialize the database and then create the **superuser**:
 
 ```bash
 (geonode)$ paver sync
 (geonode)$ python manage.py createsuperuser
 ```
+ -->

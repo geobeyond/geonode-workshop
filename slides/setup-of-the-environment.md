@@ -9,7 +9,7 @@ Installation of minimal requirements from [GeoNode tutorials](http://docs.geonod
 - Setup of a VM with a Vagrantfile assuming you are on unix:
 
 ```bash
-$ mkdir geonode && cd geonode && vagrant init ubuntu/trusty32
+$ mkdir geonode && cd geonode && vagrant init ubuntu/xenial64
 # Create a working directory and initialize the vagrantfile within
 ```
 

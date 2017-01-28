@@ -79,7 +79,7 @@
             }
         },
         {
-            "filename": "install-geonode.md",
+            "filename": "install-geonode-1.md",
             "attr": {
                 "data-background": "css/img/bg.png"
             }
@@ -104,6 +104,18 @@
         },
         {
             "filename": "tricks-and-solution.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "tricks-and-solution-1.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "tricks-and-solution-2.md",
             "attr": {
                 "data-background": "css/img/bg.png"
             }
@@ -301,7 +313,7 @@
             }
         },
         {
-            "filename": "setup-geonode-devel-2dot4.md",
+            "filename": "setup-geonode-devel-2dot6.md",
             "attr": {
                 "data-background": "css/img/bg.png"
             }

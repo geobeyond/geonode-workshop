@@ -4,14 +4,14 @@ Install your preferred *python* version:
 
 ```bash
 $ mkdir development && cd development
-$ pyenv install 2.7.12
+$ pyenv install 2.7.13
 # install python
 ```
 
 Create new virtual environment:
 
 ```bash
-$ pyenv virtualenv 2.7.12 geonode
+$ pyenv virtualenv 2.7.13 geonode
 # create virtualenv container
 ```
 

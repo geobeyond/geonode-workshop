@@ -1,21 +1,21 @@
 ## Don't panic!
 
-**Hints and tricks**
+**Security hints and tricks**
 
-Take a look at browser console what is the problem
+Security in GeoServer is hugely changed with the introduction of **[OAuth2](http://docs.geonode.org/en/master/tutorials/admin/geoserver_geonode_security/)**
 
-*Expose the port*
+*Firstly expose the port to your host machine*
 
 ```bash
 config.vm.network "forwarded_port", guest: 8080, host: 8080
 # forward to the host another port
 ```
 
-*Pass the cookie with the correct hostname to GeoServer*
+*Set security with the correct GeoNode Base Url to GeoServer*
 
 ```bash
-$ sudo vi /usr/share/geoserver/data/security/auth/geonodeAuthProvider/config.xml
-# edit the configuration of GeoServer authentication provider
+$ sudo vi /usr/share/geoserver/data/security/role/geonode\ REST\ role\ service/config.xml
+# edit the configuration of geonode REST role service
 ```
 
 Change with this value:
@@ -23,12 +23,5 @@ Change with this value:
 ```xml
 <baseUrl>http://localhost:8888/</baseUrl>
 <!-- base url of geonode web server -->
-```
-
-Restart the server:
-
-```bash
-$ sudo service tomcat7 restart
-# restart Tomcat
 ```
 

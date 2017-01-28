@@ -2,7 +2,7 @@
 
 **Prerequisites**
 
-Install [git](https://git-scm.com/) and the development dependencies for Ubuntu 14.04:
+Install [git](https://git-scm.com/) and the development dependencies for Ubuntu 16.04:
 
 ```bash
 $ sudo apt-get install -y git libgdal-dev libevent-dev python-dev build-essential
@@ -15,12 +15,12 @@ Install [pyenv](https://github.com/yyuu/pyenv) with the recommended way:
 $ curl -L https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/pyenv-installer | bash
 ```
 
-Add these lines below to the *bashrc* of the *vagrant* user:
+Add these lines below to the *bashrc* of the *ubuntu* user:
 
 ```bash
-vi /home/vagrant/.bashrc
+vi /home/ubuntu/.bashrc
 #
-export PATH="/home/vagrant/.pyenv/bin:$PATH"
+export PATH="/home/ubuntu/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 # export variable for pyenv

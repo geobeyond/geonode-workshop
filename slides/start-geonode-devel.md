@@ -15,7 +15,7 @@ Make migrations and migrate the model if something has gone wrong with:
 # make sure you have stopped you systemwide installation by doing
 $ sudo service apache2 stop
 $ sudo service tomcat7 stop
-(geonode)$ paver start -b 0.0.0.0:8000
+(geonode)$ paver start -b 0.0.0.0:8000 # sudo apt-get install openjdk-8-jdk (if not present)
 ```
 
 Development server is started within the VM at http://0.0.0.0:8000/. In order to access that on your host you have to add a new config line at your *vagrantfile* and reload:
